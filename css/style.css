@@ -111,7 +111,7 @@ form {
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
   .bt {
-  width: -webkit-fill-available;
+  width: auto;
   margin-top: 20px;
   padding: 10px;
   font-size: 18px;
