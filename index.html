@@ -23,39 +23,33 @@
       </div>
     </div>
 
-    <br>
+
     <form>
       <div class="form-group">
-        <label for="exampleInputEmail1"> 입력하는 값 </label>
-        <label class="radio-inline">
-          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option3"> 2진수
+        <label>
+          입력하는 값
+          <select class="sel-set" >
+          <option>10진수</option>
+          <option>2진수</option>
+          <option>8진수</option>
+          <option>16진수</option>
+          </select>
         </label>
-        <label class="radio-inline">
-          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1"> 8진수
-        </label>
-        <label class="radio-inline">
-          <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option2"> 10진수
-        </label>
-        <label class="radio-inline">
-          <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option3"> 16진수
-        </label>
+        
+        
         <input type="text" class="form-control" id="exampleInputEmail1" placeholder="ex) 10011.11...">
       </div>
 
 
       <div class="form-group">
-        <label for="exampleInputPassword1">변환한 값</label>
-        <label class="radio-inline">
-          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option3"> 2진수
-        </label>
-        <label class="radio-inline">
-          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option1"> 8진수
-        </label>
-        <label class="radio-inline">
-          <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option2"> 10진수
-        </label>
-        <label class="radio-inline">
-          <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option3"> 16진수
+        <label>
+          변환 결과
+          <select class="sel-set" >
+          <option>10진수</option>
+          <option>2진수</option>
+          <option>8진수</option>
+          <option>16진수</option>
+          </select>
         </label>
         <input type="text" class="form-control" id="result" placeholder="결과값">
       </div>
