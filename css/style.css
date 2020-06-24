@@ -43,26 +43,24 @@ label {
 
 
 .bt {
-  width: auto;
-  padding: 10px;
-  font-size: 18px;
-  line-height: 1.3333333;
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
-
-
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-bottom: 0;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  border: 1px solid transparent;
-  border-radius: 4px;
-
+    width: auto;
+    margin-top: -5px;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.3333333;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 
 .starter-template {
@@ -111,26 +109,24 @@ form {
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
   .bt {
-  width: auto;
-  margin-top: 20px;
-  padding: 10px;
-  font-size: 18px;
-  line-height: 1.3333333;
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
-
-
-  display: inline-block;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  border: 1px solid transparent;
-  border-radius: 4px;
+    width: auto;
+    margin-top: -5px;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.3333333;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 4px;
   }
 
 }
