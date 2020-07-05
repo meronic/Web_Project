@@ -2,7 +2,9 @@ body {
   padding-top: 30px;
 
 }
-
+.first img {
+  text-align: center;
+}
 .img-circle {
   display: block; margin: 0px auto;
 }
@@ -131,3 +133,82 @@ form {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//여기서부터  about
+.wrapper {
+    padding: 6em 0 4em 0;
+    position: relative;
+  }
+
+.wrapper .inner {
+      margin: 0 auto;
+      width: 80em;
+      position: relative;
+      z-index: 99;
+    }
+
+.align-center {
+    text-align: center;
+  }
+
+  
+.flex {
+    display: -ms-flexbox;
+    -ms-flex-pack: justify;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    
+    justify-content: space-between;
+    -moz-align-items: stretch;
+    -webkit-align-items: stretch;
+    -ms-align-items: stretch;
+    align-items: stretch;
+
+
+  }
+
+
+.flex .col {
+      width: 28%;
+    }
+
+.flex .col img {
+      border-style: groove;
+    }
+
+.image.fit {
+      display: block;
+      margin: 0 0 2em 0;
+      width: 100%;
+    }
+
+.image.fit img {
+  width: 100%;
+}
+
+.image.round {
+border-radius: 100%;
+}
+
+.image.round img {
+  border-radius: 100%;
+}

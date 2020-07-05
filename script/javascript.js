@@ -1,6 +1,7 @@
 
+// 함수
 
-function Convert(obj) { // 변환기능을 하는 함수 구현 
+function Convert(obj) { // 변환기능을 하는 함수
 
   result = ''; // 결과값을 저장할 변수
 
@@ -19,4 +20,7 @@ function Convert(obj) { // 변환기능을 하는 함수 구현
 
   obj.result.value = result; // 결과에 출력
 } 
+
+
+
 
